@@ -1,0 +1,166 @@
+.Chat {
+	text-align: center;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: stretch;
+	height: 100vh;
+}
+
+.topnav {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #222222;
+	color: white;
+	align-items: center;
+	padding: 1em;
+}
+
+.leftNavig {
+	flex: 1;
+	flex-direction: row;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.heading {
+	margin-left: 2em;
+	font-size: 200%;
+}
+
+.profile {
+	margin-left: 3em;
+	font-size: 200%;
+	cursor: pointer;
+	border: 1px solid white;
+	padding: 0.3em 0.3em;
+}
+
+.rightNavig {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.logOut {
+	cursor: pointer;
+	font-size: 150%;
+	border: 1px solid #222222;
+	background-color: #222222;
+	padding: 0.5em;
+	transition: background-color 0.3s;
+	width: 60px;
+	height: 60px;
+}
+
+.logOut:hover {
+	background-color:white;
+	color: #222222;
+}
+
+.img {
+	background: url(./logout_white.png);
+	background-size: cover;
+	width: 40px;
+	height: 40px;
+}
+
+.img:hover {
+	background: url(./logout_black.png);
+	background-size: cover;
+}
+
+.downcontent {
+	flex: 14;
+	display: flex;
+	flex-direction: row;
+}
+
+.sideNav {
+	flex: 2;
+	flex-direction: column;
+	background-color: #222222;
+	color: white;
+}
+
+.friend {
+	cursor: pointer;
+	padding: 1em;
+	border: 1px solid white;
+	font-size: 120%;
+	transition: background-color 0.3s;
+}
+
+.friend:hover {
+	background-color: white;
+	color: black;
+}
+
+.ChatBox {
+	display: flex;
+	flex: 8;
+	justify-content: flex-end;
+	flex-direction: column;
+	background-image: url('./chatwall.jpg');
+}
+
+.top {
+	display: flex;
+	flex-direction: row;
+}
+
+.currFriend {
+	background-color: gray;
+	padding: 1em;
+	font-size: 120%;
+}
+
+.ChatBook {
+	display: flex;
+	flex: 14;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 1em 1em 0em 1em;
+	font-size: 120%;
+}
+
+.chat {
+	padding: 0.5em;
+}
+
+.fromf {
+	background-color: gray; 
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 12px;
+	float: left;
+}
+
+.chatM {
+	background-color: white; 
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 12px;
+	float: right;
+}
+
+.Write {
+	flex: 1;
+	padding: 1em 1em 0em 1em;
+}
+
+.form {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+}
+
+.input {
+	flex: 9;
+}
+
+.send {
+	flex: 1;
+}
